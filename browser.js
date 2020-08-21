@@ -4,13 +4,13 @@ var WRTCDataChannel = null;
 var WRTCDataChannelEvent = null;
 // var WRTCDtlsTransport = null;
 var WRTCIceCandidate = null;
-var WRTCIceTransport = null;
+// var WRTCIceTransport = null;
 var WRTCPeerConnection = null;
 var WRTCPeerConnectionIceEvent = null;
 var WRTCRtpReceiver = null;
 var WRTCRtpSender = null;
 var WRTCRtpTransceiver = null;
-var WRTCSctpTransport = null;
+// var WRTCSctpTransport = null;
 var WRTCSessionDescription = null;
 // var WgetUserMedia = null;
 // var WmediaDevices = null;
@@ -22,13 +22,13 @@ if (typeof RTCPeerConnection !== "undefined") {
   WRTCDataChannelEvent = RTCDataChannelEvent;
   // WRTCDtlsTransport = RTCDtlsTransport;
   WRTCIceCandidate = RTCIceCandidate;
-  WRTCIceTransport = RTCIceTransport;
+  // WRTCIceTransport = RTCIceTransport;
   WRTCPeerConnection = RTCPeerConnection;
   WRTCPeerConnectionIceEvent = RTCPeerConnectionIceEvent;
   WRTCRtpReceiver = RTCRtpReceiver;
   WRTCRtpSender = RTCRtpSender;
   WRTCRtpTransceiver = RTCRtpTransceiver;
-  WRTCSctpTransport = RTCSctpTransport;
+  // WRTCSctpTransport = RTCSctpTransport;
   WRTCSessionDescription = RTCSessionDescription;
 } else if (typeof global !== "undefined") {
   WMediaStream = global.MediaStream;
@@ -37,13 +37,13 @@ if (typeof RTCPeerConnection !== "undefined") {
   WRTCDataChannelEvent = global.RTCDataChannelEvent;
   // WRTCDtlsTransport = global.RTCDtlsTransport;
   WRTCIceCandidate = global.RTCIceCandidate;
-  WRTCIceTransport = global.RTCIceTransport;
+  // WRTCIceTransport = global.RTCIceTransport;
   WRTCPeerConnection = global.RTCPeerConnection;
   WRTCPeerConnectionIceEvent = global.RTCPeerConnectionIceEvent;
   WRTCRtpReceiver = global.RTCRtpReceiver;
   WRTCRtpSender = global.RTCRtpSender;
   WRTCRtpTransceiver = global.RTCRtpTransceiver;
-  WRTCSctpTransport = global.RTCSctpTransport;
+  // WRTCSctpTransport = global.RTCSctpTransport;
   WRTCSessionDescription = global.RTCSessionDescription;
 } else if (typeof window !== "undefined") {
   WMediaStream = window.MediaStream;
@@ -52,13 +52,13 @@ if (typeof RTCPeerConnection !== "undefined") {
   WRTCDataChannelEvent = window.RTCDataChannelEvent;
   // WRTCDtlsTransport = window.RTCDtlsTransport;
   WRTCIceCandidate = window.RTCIceCandidate;
-  WRTCIceTransport = window.RTCIceTransport;
+  // WRTCIceTransport = window.RTCIceTransport;
   WRTCPeerConnection = window.RTCPeerConnection;
   WRTCPeerConnectionIceEvent = window.RTCPeerConnectionIceEvent;
   WRTCRtpReceiver = window.RTCRtpReceiver;
   WRTCRtpSender = window.RTCRtpSender;
   WRTCRtpTransceiver = window.RTCRtpTransceiver;
-  WRTCSctpTransport = window.RTCSctpTransport;
+  // WRTCSctpTransport = window.RTCSctpTransport;
   WRTCSessionDescription = window.RTCSessionDescription;
 } else if (typeof self !== "undefined") {
   WMediaStream = self.MediaStream;
@@ -67,13 +67,13 @@ if (typeof RTCPeerConnection !== "undefined") {
   WRTCDataChannelEvent = self.RTCDataChannelEvent;
   // WRTCDtlsTransport = self.RTCDtlsTransport;
   WRTCIceCandidate = self.RTCIceCandidate;
-  WRTCIceTransport = self.RTCIceTransport;
+  // WRTCIceTransport = self.RTCIceTransport;
   WRTCPeerConnection = self.RTCPeerConnection;
   WRTCPeerConnectionIceEvent = self.RTCPeerConnectionIceEvent;
   WRTCRtpReceiver = self.RTCRtpReceiver;
   WRTCRtpSender = self.RTCRtpSender;
   WRTCRtpTransceiver = self.RTCRtpTransceiver;
-  WRTCSctpTransport = self.RTCSctpTransport;
+  // WRTCSctpTransport = self.RTCSctpTransport;
   WRTCSessionDescription = self.RTCSessionDescription;
 }
 
@@ -84,12 +84,12 @@ export {
   WRTCDataChannelEvent as RTCDataChannelEvent,
   // WRTCDtlsTransport as RTCDtlsTransport,
   WRTCIceCandidate as RTCIceCandidate,
-  WRTCIceTransport as RTCIceTransport,
+  // WRTCIceTransport as RTCIceTransport,
   WRTCPeerConnection as RTCPeerConnection,
   WRTCPeerConnectionIceEvent as RTCPeerConnectionIceEvent,
   WRTCRtpReceiver as RTCRtpReceiver,
   WRTCRtpSender as RTCRtpSender,
   WRTCRtpTransceiver as RTCRtpTransceiver,
-  WRTCSctpTransport as RTCSctpTransport,
+  // WRTCSctpTransport as RTCSctpTransport,
   WRTCSessionDescription as RTCSessionDescription,
 };
