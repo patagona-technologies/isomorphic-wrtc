@@ -92,6 +92,4 @@ export {
   WRTCRtpTransceiver as RTCRtpTransceiver,
   WRTCSctpTransport as RTCSctpTransport,
   WRTCSessionDescription as RTCSessionDescription,
-  WgetUserMedia as getUserMedia,
-  WmediaDevices as mediaDevices,
 };
