@@ -25,7 +25,6 @@ export {
   RTCPeerConnectionIceEvent,
   RTCPeerConnection,
   RTCIceCandidate,
-  RTCDtlsTransport,
   RTCDataChannelEvent,
   RTCDataChannel,
   MediaStreamTrack,
